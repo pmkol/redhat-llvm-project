@@ -6,13 +6,13 @@ on:
       version:
         description: 'Select version to build'
         required: true
-        default: '19.1.6'
+        default: '19.1.7'
         type: choice
         options:
           - '16.0.6'
           - '17.0.6'
           - '18.1.8'
-          - '19.1.6'
+          - '19.1.7'
 
 jobs:
   build:
